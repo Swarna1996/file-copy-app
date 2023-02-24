@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.app.controller.MainFormController">
+   <children>
+      <Button fx:id="btnReset" layoutX="31.0" layoutY="27.0" mnemonicParsing="false" onAction="#btnResetOnAction" text="Reset" />
+      <Button fx:id="btnSelectFile" layoutX="31.0" layoutY="79.0" mnemonicParsing="false" onAction="#btnSelectFileOnAction" text="Select File" />
+      <Label fx:id="lblSelectedFile" layoutX="31.0" layoutY="114.0" prefHeight="20.0" prefWidth="321.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSelectDestination" layoutX="31.0" layoutY="154.0" mnemonicParsing="false" onAction="#btnSelectDestinationOnAction" text="Select Destination" />
+      <Label fx:id="lblSelectedDestination" layoutX="31.0" layoutY="189.0" prefHeight="20.0" prefWidth="309.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCopy" layoutX="143.0" layoutY="246.0" mnemonicParsing="false" onAction="#btnCopyOnAction" text="Copy" />
+      <ProgressBar fx:id="prgBar" layoutX="38.0" layoutY="306.0" prefHeight="20.0" prefWidth="321.0" progress="0.0" />
+   </children>
+</AnchorPane>
